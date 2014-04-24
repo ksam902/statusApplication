@@ -1,0 +1,208 @@
+body{
+
+	color: white;
+	background: #222;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	padding: 20px 0;
+
+}
+body p {
+
+	padding-top: 3%;
+	bottom: 0;
+
+}
+.container {
+
+	width: 60%;
+	max-width: 6700px;
+	margin: 80px auto;
+	background: #FFF2E7;
+	border: 1px solid #cccccc;
+	padding: 20px;
+	border-radius: 4px;
+	box-shadow: 0 2ox 4px rgba(0, 0, 0, 0.1);
+
+
+}
+.mainParagraph{
+
+	color: black;
+	font-family: Century Gothic, sans-serif;
+	width: 80%;
+	padding-left: 10%;
+	padding-bottom: 10px;
+
+
+}
+.mainParagraph p {
+
+}
+.keyWord{
+	
+	font-size: 150%;
+
+}
+#nav{
+	background: #222;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+#nav-wrapper{
+
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+/*#navigation { }*/
+#nav-wrapper ul { 
+
+	font-size: 15px;
+	list-style:none; 
+	text-align:center; 
+	border-top:1px solid white; 
+	border-bottom:1px solid white; 
+	padding:10px 0; 
+}
+#nav-wrapper ul li { 
+
+	display:inline; 
+	text-transform:uppercase; 
+	padding:0 10px; 
+	letter-spacing:10px; 
+}
+#nav-wrapper ul li a { 
+	
+	text-decoration:none; 
+	color: white; 
+}
+#nav-wrapper ul li:hover { 
+	/*text-decoration:underline;*/
+	opacity: 0.5;
+}
+/*Other Links*/
+#link{
+	text-decoration: none;
+
+	color: #639BF1;
+}
+.postLink{
+	
+}
+#link:hover{
+	text-decoration: underline;
+	opacity: 0.5;
+}
+/*Username and Update Display*/
+#usernameDisplay{
+	padding: 0;
+	font-variant: small-caps;
+	font-size: 90%;
+}
+#updateDisplay{
+	color: black;
+	border-style: groove;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 86%;
+	font-variant: small-caps;
+	background-color: white;
+	padding: 10px 40px;
+	border-radius: 25px;	 
+}
+
+form {
+	margin: 0 auto;
+}
+
+form input{
+
+	border-radius: 4px;
+	/*display: block;*/
+	/*margin: 10px 0 10px 0;*/
+	-webkit-appearance: none;
+	border: 1px solid #bbb;
+	background: white;
+	padding: 4px;
+
+
+}
+form input:last-child{
+	margin: 0;
+}
+form input[type=submit]{
+	/*margin-left: 33%;*/
+	padding: 5px 45px 5px 45px;
+}
+form input[type=submit]:hover{
+	background: #eee;
+	cursor: pointer;
+
+}
+form input[type=checkbox]{
+	border: 1px solid black;
+	border-radius: 5px;
+	display: inline;
+
+}
+form input[type=label]{
+	font-size: 5px;
+	
+}
+textarea {
+	resize: none;
+	width: 100%;
+}
+p.error{
+		color: #aa0000;
+		margin: 0 0 10px 0;
+
+}
+.field {
+/*
+	padding-left: 33%;*/
+	padding-bottom: 10px;
+}
+.errorReport{
+	font-size: 90%;
+	color: red;
+	padding: 0;
+}
+#createAccount{
+	margin: auto;
+}
+#newStatus {
+	margin: 0 auto;
+	/*padding-left: 10%;
+	padding-right: 10%;*/
+	resize: none;
+}
+/*Update List Styling*/
+.updateList {
+	list-style-type: circle;
+	padding: 10px;
+	font-family: Verdana;
+	font-size: 120%;
+
+}
+h1 {
+	margin: 0 0 15px 0;
+	padding: 0 0 15px 0;
+	font-size: 18px;
+	color: #41546c;
+	border-bottom: 1px solid #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
