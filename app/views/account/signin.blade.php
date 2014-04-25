@@ -17,9 +17,9 @@
 	@foreach($errors->all() as $error)
 		<p class="errorReport">{{ $error }}</p>
 	@endforeach
+
+	<center><p>Make sure you have <a href="#">created an account</a> first!</p></center>
 	</div>	
-
-
 	<form action="{{ URL::route('account-sign-in-post') }}" method="post">
 
 	<div class="field">

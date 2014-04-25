@@ -4,7 +4,7 @@
 	<div class="mainParagraph">
 		<center><p><strong><span class="keyWord">HEY YOU!</span></strong></br></br> Wanna join? I don't blame you.</br></br>
 		Please provide the appropriate information to create an account!</br></br>
-		<strong>- Check your email to activate your account -</strong></p></center>
+		</p></center>
 <!-- 		<p class="errorReport">
 			@if($errors -> has('email'))
 			{{$errors->first('email')}}
@@ -47,6 +47,7 @@
 			
 
 		</div>
+			<center><p><strong>- Check your email to activate your account -</strong></p></center>
 			<center><input type="submit" value="Create" ></center>
 		
 		{{ Form::token() }}

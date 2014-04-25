@@ -2,7 +2,7 @@
 
 @section('content')
 	<div class="mainParagraph">
-		<center><p>You would like to change your password?</br></br> 
+		<center><p>Would you like to change your password?</br></br> 
 			<strong>Change away!</strong> 
 		</p></center>
 	@foreach($errors->all() as $error)
