@@ -2,7 +2,8 @@
 
 @section('content')
 <div class="mainParagraph">
-		<center><p>It is unfortunate that you have forgotten your password. <strong>Luckily, we can give you a new one!</strong> </p></center>
+		<center><p>It is unfortunate that you have forgotten your password. </br></br>
+			<strong>Luckily, we can give you a new one!</strong> </p></center>
 <!-- 		<p class="errorReport"> @if($errors->has('email'))
 			{{$errors->first('email')}}
 		@endif

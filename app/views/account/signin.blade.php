@@ -18,7 +18,7 @@
 		<p class="errorReport">{{ $error }}</p>
 	@endforeach
 
-	<center><p>Make sure you have <a href="#">created an account</a> first!</p></center>
+	<center><p>Make sure you have <a href="{{URL::route('account-create')}}" id="link">created an account</a> first!</p></center>
 	</div>	
 	<form action="{{ URL::route('account-sign-in-post') }}" method="post">
 

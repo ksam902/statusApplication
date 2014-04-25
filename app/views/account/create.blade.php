@@ -47,7 +47,7 @@
 			
 
 		</div>
-			<center><p><strong>- Check your email to activate your account -</strong></p></center>
+			<center><p style="color: black"><strong>Check your email to activate your account</strong></p></center>
 			<center><input type="submit" value="Create" ></center>
 		
 		{{ Form::token() }}
