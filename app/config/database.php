@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'testing',
+			'database'  => 'norex_assignment',
 			'username'  => 'root',
 			'password'  => 'root',
 			'charset'   => 'utf8',
